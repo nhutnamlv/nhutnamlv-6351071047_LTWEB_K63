@@ -1,0 +1,21 @@
+﻿@model IEnumerable<_6351071047_LTWEB_K63.Models.SACH>
+
+<h2>Sản phẩm theo nhà xuất bản</h2>
+<ul>
+    @foreach (var sach in Model)
+    {
+        <li>
+            <div class="template_product_box">
+                <h1>@sach.Tensach <span>(by New Author)</span></h1>
+                <img src="~/Content/images/@sach.Anhbia" alt="@sach.Tensach" style="width: 100px; height: 140px; object-fit: cover;" />
+                <div class="product_info">
+                    <p>@sach.Mota</p>
+                    <h3>@sach.Giaban VNĐ</h3>
+                    <div class="buy_now_button">
+                        <a href="@Url.Action("Details", "Home", new { id = sach.MaCD })">Details</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    }
+</ul>

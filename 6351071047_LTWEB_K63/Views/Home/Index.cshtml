@@ -1,0 +1,22 @@
+﻿<div id="templatemo_content_right">
+    @foreach (var sach in Model)
+    {
+        <div class="templatemo_product_box">
+            <h1>@sach.Tensach <span>(by New Author)</span></h1>
+            <img src="~/Content/images/@sach.Anhbia" alt="@sach.Tensach" style="width: 100px; height: 140px; object-fit: cover;" />
+            <div class="product_info">
+                <p>@sach.Mota</p>
+                <h3>@sach.Giaban VNĐ</h3>
+                <div class="buy_now_button">
+                    <a href="@Url.Action("Details", "Home", new { id = sach.Masach })">Buy Now</a>
+                </div>
+                <div class="detail_button">
+                    <a href="@Url.Action("Details", "Home", new { id = sach.Masach })">Detail</a>
+                </div>
+            </div>
+            <div class="cleaner">&nbsp;</div>
+        </div>
+        <div class="cleaner_with_width">&nbsp;</div>
+    }
+    <div class="cleaner_with_height">&nbsp;</div>
+</div>
