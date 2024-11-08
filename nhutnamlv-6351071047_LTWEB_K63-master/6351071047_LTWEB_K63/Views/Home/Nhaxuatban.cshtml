@@ -1,0 +1,9 @@
+﻿@model IEnumerable<_6351071047_LTWEB_K63.Models.NHAXUATBAN>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <a href="@Url.Action("SPTheoNXB", "Home", new { id = item.MaNXB })">@item.TenNXB</a>
+        </li>
+    }
+</ul>

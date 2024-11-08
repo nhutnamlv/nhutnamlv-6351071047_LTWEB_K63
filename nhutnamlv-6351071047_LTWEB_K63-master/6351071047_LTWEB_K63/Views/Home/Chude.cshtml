@@ -1,0 +1,13 @@
+﻿
+@model IEnumerable<_6351071047_LTWEB_K63.Models.CHUDE>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <a href="@Url.Action("SPTheoChude", "Home", new { id = item.MaCD })">
+                @item.TenChuDe
+            </a>
+        </li>
+    }
+</ul>
