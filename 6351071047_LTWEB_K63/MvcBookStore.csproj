@@ -47,12 +47,15 @@
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+<<<<<<< HEAD
     <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
     </Reference>
     <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
     </Reference>
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -101,10 +104,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\images\daiso11.jpg" />
+<<<<<<< HEAD
     <Content Include="Content\images\giohang_.jpg" />
     <Content Include="Content\images\kinhte.jpg" />
     <Content Include="Content\images\lichsu.jpg" />
     <Content Include="Content\images\tamly.jpg" />
+=======
+    <Content Include="Content\images\kinhte.jpg" />
+    <Content Include="Content\images\lichsu.jpg" />
+    <Content Include="Content\images\tamly.jpg" />
+    <Content Include="Content\images\truyenkieu.jpg" />
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <Content Include="Content\images\templatemo_bg.jpg" />
     <Content Include="Content\images\templatemo_btn_01.jpg" />
     <Content Include="Content\images\templatemo_btn_02.jpg" />
@@ -116,6 +126,7 @@
     <Content Include="Content\images\templatemo_image_03.jpg" />
     <Content Include="Content\images\templatemo_image_04.jpg" />
     <Content Include="Content\images\templatemo_menu_bg.jpg" />
+<<<<<<< HEAD
     <Content Include="Content\images\Truyenkieu.jpg" />
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\sb-admin-2.css" />
@@ -134,12 +145,22 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>QLBANSACH.edmx</DependentUpon>
       <LastGenOutput>QLBANSACH.Context.cs</LastGenOutput>
+=======
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\templatemo_style.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Models\QLBANSACH.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>QLBANSACH.Context.cs</LastGenOutput>
+      <DependentUpon>QLBANSACH.edmx</DependentUpon>
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     </Content>
     <Content Include="Models\QLBANSACH.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>QLBANSACH.edmx</DependentUpon>
       <LastGenOutput>QLBANSACH.cs</LastGenOutput>
     </Content>
+<<<<<<< HEAD
     <Content Include="tinymce_7.5.1\tinymce\js\tinymce\icons\default\icons.min.js" />
     <Content Include="tinymce_7.5.1\tinymce\js\tinymce\models\dom\model.min.js" />
     <Content Include="tinymce_7.5.1\tinymce\js\tinymce\plugins\accordion\plugin.min.js" />
@@ -1929,21 +1950,30 @@
     <Content Include="vendor\jquery\jquery.min.js" />
     <Content Include="vendor\jquery\jquery.slim.js" />
     <Content Include="vendor\jquery\jquery.slim.min.js" />
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\dbQLBansachDataContext.cs" />
     <Compile Include="Controllers\GiohangController.cs" />
+=======
+    <Compile Include="Controllers\dbQLBansachDataContext.cs" />
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NguoidungController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Models\Admin.cs">
       <DependentUpon>QLBANSACH.tt</DependentUpon>
     </Compile>
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <Compile Include="Models\CHITIETDONTHANG.cs">
       <DependentUpon>QLBANSACH.tt</DependentUpon>
     </Compile>
@@ -1953,7 +1983,10 @@
     <Compile Include="Models\DONDATHANG.cs">
       <DependentUpon>QLBANSACH.tt</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Models\Giohang.cs" />
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <Compile Include="Models\KHACHHANG.cs">
       <DependentUpon>QLBANSACH.tt</DependentUpon>
     </Compile>
@@ -1988,7 +2021,10 @@
       <DependentUpon>QLBANSACH.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="System\Data\Entity\EntityState.cs" />
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -2008,6 +2044,7 @@
     <Content Include="Views\Home\SPTheoChude.cshtml" />
     <Content Include="Views\Home\SPTheoNXB.cshtml" />
     <Content Include="Views\Home\Details.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Giohang\GioHang.cshtml" />
     <Content Include="Views\Giohang\GioHangpartial.cshtml" />
     <Content Include="Views\Giohang\ChiTietGioHang.cshtml" />
@@ -2175,6 +2212,9 @@
     <Content Include="Views\Admin\Chitietsach.cshtml" />
     <Content Include="Views\Admin\Xoasach.cshtml" />
     <Content Include="Views\Admin\Suasach.cshtml" />
+=======
+    <Content Include="Views\Nguoidung\Dangky.cshtml" />
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2186,12 +2226,17 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="tinymce_7.5.1\tinymce\js\tinymce\tinymce.d.ts" />
   </ItemGroup>
+=======
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

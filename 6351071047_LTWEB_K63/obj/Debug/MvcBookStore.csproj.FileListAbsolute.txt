@@ -220,6 +220,7 @@ C:\Users\nhut nam\Desktop\New folder\nhutnamlv-6351071047_LTWEB_K63\6351071047_L
 C:\Users\nhut nam\Desktop\New folder\nhutnamlv-6351071047_LTWEB_K63\6351071047_LTWEB_K63\obj\Debug\MvcBookS.F1690B1F.Up2Date
 C:\Users\nhut nam\Desktop\New folder\nhutnamlv-6351071047_LTWEB_K63\6351071047_LTWEB_K63\obj\Debug\6351071047_LTWEB_K63.dll
 C:\Users\nhut nam\Desktop\New folder\nhutnamlv-6351071047_LTWEB_K63\6351071047_LTWEB_K63\obj\Debug\6351071047_LTWEB_K63.pdb
+<<<<<<< HEAD
 D:\Downloads\nhutnamlv-6351071047_LTWEB_K63-master (2)\nhutnamlv-6351071047_LTWEB_K63-master\6351071047_LTWEB_K63\bin\6351071047_LTWEB_K63.dll.config
 D:\Downloads\nhutnamlv-6351071047_LTWEB_K63-master (2)\nhutnamlv-6351071047_LTWEB_K63-master\6351071047_LTWEB_K63\bin\6351071047_LTWEB_K63.dll
 D:\Downloads\nhutnamlv-6351071047_LTWEB_K63-master (2)\nhutnamlv-6351071047_LTWEB_K63-master\6351071047_LTWEB_K63\bin\6351071047_LTWEB_K63.pdb
@@ -372,3 +373,5 @@ C:\Users\nhut nam\Desktop\lab3\nhutnamlv-6351071047_LTWEB_K63\nhutnamlv-63510710
 C:\Users\nhut nam\Desktop\lab3\nhutnamlv-6351071047_LTWEB_K63\nhutnamlv-6351071047_LTWEB_K63\6351071047_LTWEB_K63\bin\PagedList.Mvc.dll
 C:\Users\nhut nam\Desktop\lab3\nhutnamlv-6351071047_LTWEB_K63\nhutnamlv-6351071047_LTWEB_K63\6351071047_LTWEB_K63\bin\PagedList.xml
 C:\Users\nhut nam\Desktop\lab3\nhutnamlv-6351071047_LTWEB_K63\nhutnamlv-6351071047_LTWEB_K63\6351071047_LTWEB_K63\bin\PagedList.Mvc.xml
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b

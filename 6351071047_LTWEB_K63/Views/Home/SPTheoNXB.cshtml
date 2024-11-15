@@ -2,14 +2,22 @@
 
 <h2>Sản phẩm theo nhà xuất bản</h2>
 <ul>
+<<<<<<< HEAD
     <div id="templatemo_content_right">
         @foreach (var sach in Model)
         {
             <div class="templatemo_product_box">
+=======
+    @foreach (var sach in Model)
+    {
+        <li>
+            <div class="template_product_box">
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
                 <h1>@sach.Tensach <span>(by New Author)</span></h1>
                 <img src="~/Content/images/@sach.Anhbia" alt="@sach.Tensach" style="width: 100px; height: 140px; object-fit: cover;" />
                 <div class="product_info">
                     <p>@sach.Mota</p>
+<<<<<<< HEAD
                     <h3>@sach.Giaban VND</h3>
                     <div class="buy_now_button">
                         <a href="@Url.Action("Details", "Home", new { id = sach.MaCD })">Buy Now</a>
@@ -24,4 +32,14 @@
         }
         <div class="cleaner_with_height">&nbsp;</div>
     </div>
+=======
+                    <h3>@sach.Giaban VNĐ</h3>
+                    <div class="buy_now_button">
+                        <a href="@Url.Action("Details", "Home", new { id = sach.MaCD })">Details</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    }
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
 </ul>

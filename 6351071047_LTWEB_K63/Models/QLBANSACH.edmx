@@ -5,6 +5,7 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
       <Schema Namespace="QLBANSACHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<<<<<<< HEAD
         <EntityType Name="Admin">
           <Key>
             <PropertyRef Name="UserAdmin" />
@@ -13,6 +14,8 @@
           <Property Name="PassAdmin" Type="varchar" MaxLength="30" Nullable="false" />
           <Property Name="Hoten" Type="nvarchar" MaxLength="50" />
         </EntityType>
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
         <EntityType Name="CHITIETDONTHANG">
           <Key>
             <PropertyRef Name="MaDonHang" />
@@ -192,7 +195,10 @@
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="QLBANSACHModelStoreContainer">
+<<<<<<< HEAD
           <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
           <EntitySet Name="CHITIETDONTHANG" EntityType="Self.CHITIETDONTHANG" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="CHUDE" EntityType="Self.CHUDE" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="DONDATHANG" EntityType="Self.DONDATHANG" Schema="dbo" store:Type="Tables" />
@@ -236,6 +242,7 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="QLBANSACHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<<<<<<< HEAD
         <EntityType Name="Admin">
           <Key>
             <PropertyRef Name="UserAdmin" />
@@ -244,6 +251,8 @@
           <Property Name="PassAdmin" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Hoten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
         <EntityType Name="CHITIETDONTHANG">
           <Key>
             <PropertyRef Name="MaDonHang" />
@@ -436,8 +445,12 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+<<<<<<< HEAD
         <EntityContainer Name="QLBANSACHEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Admins" EntityType="Self.Admin" />
+=======
+        <EntityContainer Name="QLBANSACHEntities" annotation:LazyLoadingEnabled="true">
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
           <EntitySet Name="CHITIETDONTHANGs" EntityType="Self.CHITIETDONTHANG" />
           <EntitySet Name="CHUDEs" EntityType="Self.CHUDE" />
           <EntitySet Name="DONDATHANGs" EntityType="Self.DONDATHANG" />
@@ -481,6 +494,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+<<<<<<< HEAD
         <EntityContainerMapping StorageEntityContainer="QLBANSACHModelStoreContainer" CdmEntityContainer="QLBANSACHEntities1">
           <EntitySetMapping Name="Admins">
             <EntityTypeMapping TypeName="QLBANSACHModel.Admin">
@@ -491,6 +505,9 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+=======
+        <EntityContainerMapping StorageEntityContainer="QLBANSACHModelStoreContainer" CdmEntityContainer="QLBANSACHEntities">
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
           <EntitySetMapping Name="CHITIETDONTHANGs">
             <EntityTypeMapping TypeName="QLBANSACHModel.CHITIETDONTHANG">
               <MappingFragment StoreEntitySet="CHITIETDONTHANG">

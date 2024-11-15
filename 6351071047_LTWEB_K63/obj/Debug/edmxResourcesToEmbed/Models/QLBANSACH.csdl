@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="QLBANSACHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<<<<<<< HEAD
   <EntityType Name="Admin">
     <Key>
       <PropertyRef Name="UserAdmin" />
@@ -8,6 +9,8 @@
     <Property Name="PassAdmin" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Hoten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
   <EntityType Name="CHITIETDONTHANG">
     <Key>
       <PropertyRef Name="MaDonHang" />
@@ -200,8 +203,12 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+<<<<<<< HEAD
   <EntityContainer Name="QLBANSACHEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Admins" EntityType="Self.Admin" />
+=======
+  <EntityContainer Name="QLBANSACHEntities" annotation:LazyLoadingEnabled="true">
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <EntitySet Name="CHITIETDONTHANGs" EntityType="Self.CHITIETDONTHANG" />
     <EntitySet Name="CHUDEs" EntityType="Self.CHUDE" />
     <EntitySet Name="DONDATHANGs" EntityType="Self.DONDATHANG" />

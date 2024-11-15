@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using _6351071047_LTWEB_K63.Models;
 using System;
+=======
+﻿using System;
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,11 +11,17 @@ using System.Web.Mvc;
 
 namespace _6351071047_LTWEB_K63.Controllers
 {
+<<<<<<< HEAD
     
     public class NguoidungController : Controller
     {
         // GET: Nguoidung
         QLBANSACHEntities1 db = new QLBANSACHEntities1();
+=======
+    public class NguoidungController : Controller
+    {
+        // GET: Nguoidung
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
         public ActionResult Index()
         {
             return View();
@@ -20,6 +30,7 @@ namespace _6351071047_LTWEB_K63.Controllers
         {
             return View();
         }
+<<<<<<< HEAD
         [HttpPost]
         public ActionResult Dangky(FormCollection collection, KHACHHANG kh)
         {
@@ -128,5 +139,7 @@ namespace _6351071047_LTWEB_K63.Controllers
             return View();
         }
 
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     }
 }

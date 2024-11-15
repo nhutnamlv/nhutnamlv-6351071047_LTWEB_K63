@@ -13,10 +13,17 @@ namespace _6351071047_LTWEB_K63.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
+<<<<<<< HEAD
     public partial class QLBANSACHEntities1 : DbContext
     {
         public QLBANSACHEntities1()
             : base("name=QLBANSACHEntities1")
+=======
+    public partial class QLBANSACHEntities : DbContext
+    {
+        public QLBANSACHEntities()
+            : base("name=QLBANSACHEntities")
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
         {
         }
     
@@ -25,7 +32,10 @@ namespace _6351071047_LTWEB_K63.Models
             throw new UnintentionalCodeFirstException();
         }
     
+<<<<<<< HEAD
         public DbSet<Admin> Admins { get; set; }
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
         public DbSet<CHITIETDONTHANG> CHITIETDONTHANGs { get; set; }
         public DbSet<CHUDE> CHUDEs { get; set; }
         public DbSet<DONDATHANG> DONDATHANGs { get; set; }

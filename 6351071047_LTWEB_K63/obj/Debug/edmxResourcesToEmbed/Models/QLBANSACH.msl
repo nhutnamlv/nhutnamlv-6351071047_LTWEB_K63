@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+<<<<<<< HEAD
   <EntityContainerMapping StorageEntityContainer="QLBANSACHModelStoreContainer" CdmEntityContainer="QLBANSACHEntities1">
     <EntitySetMapping Name="Admins">
       <EntityTypeMapping TypeName="QLBANSACHModel.Admin">
@@ -10,6 +11,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+=======
+  <EntityContainerMapping StorageEntityContainer="QLBANSACHModelStoreContainer" CdmEntityContainer="QLBANSACHEntities">
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
     <EntitySetMapping Name="CHITIETDONTHANGs">
       <EntityTypeMapping TypeName="QLBANSACHModel.CHITIETDONTHANG">
         <MappingFragment StoreEntitySet="CHITIETDONTHANG">

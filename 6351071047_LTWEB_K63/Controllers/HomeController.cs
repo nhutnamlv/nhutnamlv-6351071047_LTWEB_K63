@@ -4,20 +4,28 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using _6351071047_LTWEB_K63.Models;
+<<<<<<< HEAD
 using PagedList;
 using PagedList.Mvc;
+=======
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
 
 namespace _6351071047_LTWEB_K63.Controllers
 {
     public class HomeController : Controller
     {
+<<<<<<< HEAD
         private QLBANSACHEntities1 data = new QLBANSACHEntities1();
+=======
+        private QLBANSACHEntities data = new QLBANSACHEntities();
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
 
         private List<SACH> Laysachmoi(int count)
         {
             // Sử dụng "SACHes" thay vì "SACH"
             return data.SACHes.OrderByDescending(s => s.Ngaycapnhat).Take(count).ToList();
         }
+<<<<<<< HEAD
         public ActionResult Index(int ? page)
         {
             int pageSize = 5;
@@ -25,6 +33,13 @@ namespace _6351071047_LTWEB_K63.Controllers
             // Lấy 5 quyển sách mới nhất
             var sachmoi = Laysachmoi(4);
             return View(sachmoi.ToPagedList(pageNum,pageSize));
+=======
+        public ActionResult Index()
+        {
+            // Lấy 5 quyển sách mới nhất
+            var sachmoi = Laysachmoi(4);
+            return View(sachmoi);
+>>>>>>> 4cfd6914c80ba29ef1d64b8d07152bf623b3943b
 
         }
         public ActionResult Chude()
